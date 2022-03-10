@@ -1,0 +1,88 @@
+footer .text-warning{
+	color: #ffa100;
+}
+.text-white{
+	color: #fff;
+}
+.head{
+	height: 40px;
+	background-color: #2f2d2d;
+}
+.header{
+	text-align: center;
+	}
+
+.shop-time a{
+	color: #fff;
+	font-size: 0.9em;
+	margin-left: 10px;
+}
+.login a{
+	font-size: 0.9em;
+	color: #fff;
+}
+.container a{
+	color: black;
+}
+.img{
+	margin-top: 10px;
+}
+.nav-item{
+	margin-top: 10px;
+}
+.custom_style{
+	background-color: #659e47;
+	text-align: center;
+}
+.custom_style h1{
+	color: #fff;
+	padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 60px;
+    font-family: Snell Roundhand, cursive;
+}
+.account p{
+	margin-left: 80px;
+}
+
+.account hr{
+	color: black;
+	margin-top: -4px;
+}
+form{
+	position: relative;
+}
+.button{
+	position: absolute;
+	top: 0;
+	background: #119011;
+	display: inline-block;
+	width: 60px;
+	height: 30px;
+	color: #fff;
+	border-radius: 0px 10px 12px 0px;
+}
+.button i{
+	color: #fff;
+	padding-top: 10px;
+}
+footer{
+	background: #333333;
+	width: 100%;
+	height: 300px;
+	margin-top: 90px;
+}
+
+@media (max-width: 667px) {
+	.header{
+		display: flex;
+		justify-content: space-between;
+}
+span .login{
+	margin-top: 110px;
+}
+
+footer{
+	height: 100%;
+}
+}
